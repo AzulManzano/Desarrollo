@@ -19,27 +19,7 @@
                 <div class="card">
                     <h2 class="text-center">Datos Personales</h2>
                     <table class="table">
-                         <tbody class="text-center">
-                            <tr>
-                                <td>Código</td>
-                                <td>201814117</td>
-                            </tr>
-                            <tr>
-                                <td>Cédula</td>
-                                <td>1111576795</td>
-                            </tr>
-                            <tr>
-                                <td>Edad</td>
-                                <td>20 Años</td>
-                            </tr>
-                            <tr>
-                                <td>Dirección</td>
-                                <td>Calle 54 Sur #63-12</td>
-                            </tr>
-                            <tr>
-                                <td>Teléfono</td>
-                                <td>3214567654</td>
-                            </tr>
+                         <tbody id="student" class="text-center">
                         </tbody>
                     </table>
                 </div>
@@ -69,12 +49,31 @@
                         </div>
                     </form>
                     <form style="margin:10px;">
+                        <div class="form-row justify-content-center">
+                            <h5 class="text-center">Filtrar por nombre</h5>
+                        </div>
                         <div class="form-row">
                           <div class="col">
-                              <input type="text" class="form-control" id="search-box" placeholder="Filtrar por nombre">
+                              <input type="text" class="form-control" id="search-box" placeholder="nombre">
                           </div>
                           <div class="col">
                               <button type="button" id="button-filterByName" class="btn btn-success">Aplicar</button>
+                          </div>
+                        </div>
+                    </form>
+                    <form style="margin:10px;">
+                        <div class="form-row justify-content-center">
+                            <h5 class="text-center">Filtrar por creditos</h5>
+                        </div>
+                        <div class="form-row">
+                          <div class="col">
+                              <input type="number" class="form-control" id="search-box1" placeholder="Limite inferior">
+                          </div>
+                          <div class="col">
+                            <input type="number" class="form-control" id="search-box2" placeholder="Limite superior">
+                        </div>
+                          <div class="col">
+                              <button type="button" id="button-filterByName2" class="btn btn-success">Aplicar</button>
                           </div>
                         </div>
                     </form>
