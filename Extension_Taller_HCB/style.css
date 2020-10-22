@@ -1,0 +1,59 @@
+h1
+{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#imagen 
+{
+  width: 50%;
+}
+
+#imagen2
+{
+  width: 100%;
+}
+
+#imagen3
+{
+  width: 30%;
+}
+
+.Aliniacion
+{
+  text-align: center;
+}
+
+#titulo 
+{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#formato
+{
+  color: white;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#formato2
+{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#hiper
+{
+  color: brown;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#lista
+{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
